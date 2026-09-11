@@ -43,7 +43,7 @@ Lighthouse CI blocks regressions below the configured performance, accessibility
 
 ## Project scope
 
-This repository focuses on Cypress and TypeScript test automation, Lighthouse CI quality budgets, Mochawesome reporting, and GitHub Actions execution. Pytest and PostHog are intentionally outside this repository because they are not required to run these public-demo tests.
+This repository focuses on Cypress and TypeScript test automation, Lighthouse CI quality budgets, Mochawesome reporting, and GitHub Actions execution.
 
 ## Configuration
 
