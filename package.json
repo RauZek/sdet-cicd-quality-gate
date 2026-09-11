@@ -1,0 +1,24 @@
+{
+  "name": "sdet-cicd-quality-gate",
+  "version": "1.0.0",
+  "private": false,
+  "description": "An anonymized Cypress quality engineering portfolio using public demo applications.",
+  "scripts": {
+    "test": "cypress run --browser chrome --headless",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --browser chrome --headless",
+    "lighthouse": "lhci autorun --config=lighthouse.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@lhci/cli": "^0.14.0",
+    "@types/node": "^22.10.2",
+    "cypress": "^15.14.2",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "dotenv": "^16.4.7",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
